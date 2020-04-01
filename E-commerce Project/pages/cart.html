@@ -1,48 +1,58 @@
 
 <html>
 <head>
+
+
+         <link rel="stylesheet" href="../css/cart-style.css" type="text/css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     
     <title> cart page  </title>
 </head>
 
 <body>
-         <!-- NAVBAR -->
-         <header>
+
+
+        <!-- NAVBAR -->
             <nav>
+                <div class="float">
+                     <a  id= "brand" href="index.html">Ecommerce</a>
+                </div>
                 <ul>
+                  
                     <li>
-                        <a href="../index.html">Ecommerce</a>
+                        <a href="pages/aboutus.html">About us</a>
                     </li>
                     <li>
-                        <a href="aboutus.html">About us</a>
+                        <a href="pages/register.html">Register Now</a>
                     </li>
                     <li>
-                        <a href="register.html">Register Now</a>
-                    </li>
-                    <li>
-                        <a href="cart.html">Cart</a>
+                        <a href="pages/cart.html">Cart</a>
                     </li>
                 </ul>
             </nav>
-        </header>
+        
         <!-- MAIN NAVBAR -->
         <nav>
-            <ul>
-                <li>
+            <div  class="float">
                     <input type="search"> 
                     <button>Search</button>
+            </div>
+            <ul>
+               
+                <li>
+                    <a href="pages/category.html">Electronic</a>
                 </li>
                 <li>
-                    <a href="category.html">Electronic</a>
+                    <a href="pages/category.html">Handmade</a>
                 </li>
                 <li>
-                    <a href="category.html">Handmade</a>
-                </li>
-                <li>
-                    <a href="category.html">Toys</a>
+                    <a href="pages/category.html">Toys</a>
                 </li>
             </ul>
         </nav>
+
+
 
 
 
@@ -123,11 +133,18 @@
    <br>
     
 <br>
+
+
+
         <!-- FOOTER -->
-        <footer>
+        <footer  class="footer-distributed">  
+
+
             <!-- FIRST COLUMN -->
-            <div id="feedback">
-                <h4>Feedback</h4>
+            <div class="footer-left">
+
+                <h3><span>feedback</span></h3>
+
                 <form action="">
                     <label for="">Name</label> <br>
                     <input type="text">
@@ -138,22 +155,49 @@
                 </form>
             </div>
 
+
+
             <!-- SECOND COLUMN -->
-            <div id="popular-search">
-                <h4>Popular Search</h4>
-                <ul>
-                    <li>Electronic</li>
-                    <li>Toys</li>
-                    <li>Handmade</li>
-                </ul>
+            <div class="footer-center">
+
+                <h3><span>Popular Search</span></h3>
+
+                <p class="footer-links">
+                    <a href="#" class="link-1">Home</a>
+                    
+                    <a href="#">Blog</a>
+                
+                    <a href="#">Pricing</a>
+                
+                    <a href="#">About</a>
+                    
+                    <a href="#">Faq</a>
+                    
+                    <a href="#">Contact</a>
+                </p>
+
             </div>
 
+
+
             <!-- THIRD COLUMN -->
-            <div id="contact-us">
-                <h4>Contact US</h4>
-                <a href="https://www.facebook.com">Facebook</a>
-                <a href="https://www.twitter.com">Twitter</a>
-                <a href="https://www.Instagram.com">Instagram</a>
+            <div class="footer-right">
+
+            <h3><span>Contact Us</span></h3>
+
+                <p class="footer-Contact-US">                   
+                    Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+                </p>
+
+                <div class="footer-icons">
+
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+
+                </div>
+
             </div>
 
         </footer>
