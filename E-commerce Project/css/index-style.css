@@ -75,6 +75,108 @@ nav #brand
 
 
 
+
+
+ h1{
+	color:  #1c5475;
+	font: normal 40px 'Open Sans', cursive;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.middle{
+	background: #ececec;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: bold 10px sans-serif;
+	padding: 55px 50px;
+}
+
+
+.middle .home-left,
+.middle .home-center,
+.middle .home-right{
+	display: inline-block;
+	vertical-align: top;
+
+	
+}
+
+
+.middle .home-left{
+	width: 18%;
+
+	padding-right : 180px;
+	padding-bottom:   40px;
+	
+}
+
+
+
+
+.middle.middle h3{
+	color:  lightseagreen;
+	font: normal 20px 'Open Sans', cursive;
+	margin: 0;
+	font-weight: bold;
+}
+
+
+
+
+.middle .home-center{
+	width: 18%;
+	padding-right : 180px;
+	padding-bottom:   40px;
+	
+}
+
+
+
+
+
+
+
+
+.middle .home-right{
+	
+	padding-bottom:   40px;
+	width: 18%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer-distributed{
 	background: #666;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
