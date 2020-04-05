@@ -1,0 +1,252 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+
+
+
+* {
+  font-family: Open Sans;
+}
+
+
+@font-face
+{
+
+	font-family: 'font1';
+
+	src:	url('fonts/dayrom.eot') format('embedded-opentype'),
+			url('fonts/dayrom.woff') format('woff'),
+			url('fonts/dayrom.ttf') format('truetype'),
+			url('fonts/dayrom.svg#Dayrom') format('svg');
+
+	font-weight: normal;
+	font-style: normal;
+
+
+}
+
+
+
+
+
+
+nav
+{
+	background-color:#666;
+	overflow:hidden;
+	color:white;
+
+}
+nav ul 
+{
+	float:right;
+	list-style:none;
+}
+
+nav ul li 
+{
+
+	float:left;
+	padding: 10px;
+}
+nav .float
+{
+	float:left;
+	padding: 28px;
+}
+nav ul li a 
+{
+	text-decoration:none;
+	color:white;
+}
+nav #brand 
+{
+	color:  lightseagreen;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+
+
+
+
+
+.footer-distributed{
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+
+
+.footer-distributed .footer-left{
+	width: 40%;
+	color: #ffffff;
+}
+
+
+
+
+
+.footer-distributed h3{
+	color:  lightseagreen;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+	font-weight: bold;
+}
+
+
+
+
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	width: 10px;
+    padding-left: 10px;
+}
+
+
+
+.footer-distributed .footer-links a{
+	line-height: 1.8;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+
+
+.footer-distributed .footer-Contact-US{
+	color: #ffffff;
+	padding-top: 5px;
+}
+
+
+
+.footer-distributed .footer-right p span{
+
+}
+
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	
+	background-color:  #33383b;
+	border-radius: 4px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+
+
+/*-------------------------------------------Product name-------------------------------------------------*/
+#pname
+{
+color:silver;
+
+
+    
+}
+
+
+/*-------------------------------------------image of product & price and disciption-------------------------------------------------*/
+
+ #Pimg 
+{
+float:left;
+height:100px ;
+width: 200px;
+margin-left: 20px;
+}
+
+#priceAndDisciption
+{
+
+    float: left;
+
+}
+
+/*--------------------------------------------------------------------------------------------*/
+button
+{
+    padding: 200;
+    
+
+
+}
+
+
+
+
+  /*-----------------------------------stars rating------------------------------------------------*/
+  input.star
+  {
+    display: none;
+
+  }
+
+label.star
+{
+    float: right;
+
+    padding: 5px;
+    font-size: 35px;
+    color: #444;
+    transform: translate(-550px,0px);
+  
+}
+
+label.star:before
+{
+    content: '\2606';
+
+}
+
+input.star:checked ~ label.star:before
+{
+    content:'\2605' ;
+    color: blue;
+
+
+}
