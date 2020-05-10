@@ -71,7 +71,7 @@
             <!-- Product page -->
             <div id="Product page">
 
-               <h2>Product page</h2>
+               <h2 style="text-align: center;">Product page</h2>
                
                 
             </div>
@@ -86,12 +86,19 @@
 
 
             <!-- Product page -->
-            <div id="Product page">
 
-                <h2>Product page</h2>
-                
-                 
-             </div>
+
+
+
+<div class="wrapper fadeInDown" >
+<div id="formContent">
+      
+<div id="Product page">
+
+    
+    
+    
+</div>
  
  
   <!-- Product name -->
@@ -103,42 +110,47 @@
   
  
  
-     <!--------------------------------------- image of product ---------------------------------------->
- 
-     <div id="Pimg">
-         
- 
-         <img src="../img/lap.jpg" alt="Website_img" width="200px" height="100px">
- 
-     </div>
-     <br>
-     <!--------------------------------------- price and disciption------------------------------------>
- 
- 
-     <div id="priceAndDisciption">
-         <p>Dell Inspiron G3 3590 Laptop - Intel Core i5-9300H, 1 TB plus 256 GB SSD, 8 GB RAM, 15.6 Inch, NVIDIA GTX 1650 4 GB, Ubuntu - Black</p>
-         <p>13,498.00 EGP </p>
-        
-         
-     </div>
- 
- <br>
- <br>
- <br>
- <br>
+    <!--------------------------------------- image of product ---------------------------------------->
+<div id="dList">
+
+
+    <div id="Pimg">
+        <img src="../img/lap.jpg" alt="Website_img" width="200px" height="100px">
+        <span>Dell Inspiron G3 3590 Laptop - Intel Core i5-9300H, 1 TB plus 256 GB SSD, 8 GB RAM, 15.6 Inch, NVIDIA GTX 1650 4 GB, Ubuntu - Black</span>   
+    </div>
+    <!--------------------------------------- price and disciption--------------------------------------->
+    <div id="price">
+        <p>13,498.00 EGP </p>
+    </div>
+</div>
+
+
+
+
  <br>
  <br>
  
-  <button>Add to cart</button>
-  <button>Buy now</button>
-        
+  <button class="bBoth" id="bAdd">Add to cart</button>
+  <button  class="bBoth" id="bBuy">Buy now</button>
+
+  <ul style="position: relative;  left: -47px;    top: -101px;"> 
+      <p style="position: relative; left: -47px; top: 10px;">color:</p>
+      <il style=" color: #fff; background-color: blue; padding: 5px; border-radius: 50px;">blue</il>
+      <il style=" color: #fff; background-color: red; padding: 5px; border-radius: 50px;">red</il>
+      <il style=" color: #fff; background-color: black; padding: 5px; border-radius: 50px;">Black</il>
+    
+  </ul>
+
+
  
  <!-----------------------------------------customer review--------------------------------- -->
  <div id="customer review">
  
      <!----------------------------------------- star rating ------------------------------->
      
-     <form  >  
+      <br>
+
+     <form id="fAllStars" >  
          <input type="radio" name="star" class="star" id="star1">
          <label for="star1"  class="star"></label>
  
@@ -155,12 +167,33 @@
          <label for="star5"  class="star"></label>
  
      </form>
- 
-     <p>reviews</p>
-     <p>by:user</p>
-     <p>comment:</p>
+     <label for="comment" class="comment" style="left:-195px; top: 6px;"  >comment</label> <br>
+     <textarea name="" class="comment" cols="0" rows="5" style="margin: 0px; width: 605px; height: 77px;" ></textarea>
+           
+    
+     <br>
+    <div id="reviews">
+        <p >reviews:</p>
+        <hr>
+        <p>By omaryassin80 on 02 May 2020</p>
+        <p>its good product</p>
+        <hr>
+        <p>By omaryassin80 on 02 May 2020</p>
+        <p>its good product</p>
+        <hr>
+        <p>By omaryassin80 on 02 May 2020</p>
+        <p>its good product</p>
+        <hr>
+        <p>By omaryassin80 on 02 May 2020</p>
+        <p>its good product</p>
+
+    </div>
      <p>..............</p>
   </div>
+
+  
+</div> 
+</div>
  
 
 

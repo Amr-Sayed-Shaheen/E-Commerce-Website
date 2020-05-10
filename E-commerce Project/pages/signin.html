@@ -3,14 +3,14 @@
 <head>
 
 
-         <link rel="stylesheet" href="../css/register-style.css" type="text/css">
+         <link rel="stylesheet" href="../css/signin-style.css" type="text/css">
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecommerce - Register</title>
+    <title>sign in </title>
 </head>
 <body>
 
@@ -57,27 +57,35 @@
 
 
 <!--------------------------------------------------------form content----------------------------------------->
-<!----------------------------------------------------------sign in or sign up ---------------------------------->
-<div id="formContent">
-        <h2 class="form" >Sign In   </h2>
-        <a class="form" href="signup.html" > Sign Up </a>
+<!----------------------------------------------------------sign in ---------------------------------->
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+      <h2 class="active"> Sign In </h2>
+      <a class="signUp" href="signup.html">SIGN UP</a>
 
-        <!--------------------------------------------------------icon----------------------------------------->
+            <!--------------------------------------------------------icon----------------------------------------->
+<br>
 
-    <img id="icon" src="../img/key.png" alt="key">
-
-
-    <!----------------------------------------------------------sign in form ---------------------------------->
-    <form>
-        <input type="text" id="userName" name="user name" placeholder="user name" >
-        <input type="text" id="password" name="password" placeholder="password" >
-        <input  type="submit" id="signIn" name="sign in" value="Sign In" >
-    </form>
-
+        <div class="fadeIn first">
+              
+            <label aria-label="icon" >enter user name and password to sign in</label>
+            <img src="../img/key.png" id="icon" alt="key" />
+        </div>
+        <br>
+        <br>
 
 
+        <!----------------------------------------------------------sign in form ---------------------------------->
+        <form>
+            <input type="text" id="user" class="fadeIn_second" name="sign in" placeholder="user name">
+            <input type="text" id="password" class="fadeIn_third" name="sign in" placeholder="password">
+            <input type="submit" class="fadeIn fourth" value="sign in">
+          </form>
+      
+
+
+    </div>
 </div>
-
 
 
    
