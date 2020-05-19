@@ -125,6 +125,14 @@ h2.active {
 }
 
 
+#user:focus:invalid{
+  color: red;
+  border-color: red;
+  
+
+}
+
+
 
 input[type=text]:placeholder {
   color: #cccccc;

@@ -1,0 +1,109 @@
+
+ /*------------------------------- NAVBAR -------------------------------------------*/
+.navbar ul
+{
+background-color: burlywood;
+
+
+}
+
+.navbar li
+{
+
+display: inline;
+list-style-type: none;
+margin: 0px 25px 0px 25px;
+
+}
+
+
+ /*------------------------------- second NAVBAR -------------------------------------------*/
+
+.snavbar ul
+{
+    background-color: rgb(173, 240, 85);
+
+
+}
+
+
+.snavbar li
+{
+
+display: inline;
+list-style: none;
+margin: 0px 25px 0px ;
+
+
+}
+
+/*-------------------------------------------Product name-------------------------------------------------*/
+#pname
+{
+color:silver;
+
+
+    
+}
+
+
+/*-------------------------------------------image of product & price and disciption-------------------------------------------------*/
+
+ #Pimg 
+{
+float:left;
+height:100px ;
+width: 200px;
+margin-left: 20px;
+}
+
+#priceAndDisciption
+{
+
+    float: left;
+
+}
+
+/*--------------------------------------------------------------------------------------------*/
+button
+{
+    padding: 200;
+    
+
+
+}
+
+
+
+
+  /*-----------------------------------stars rating------------------------------------------------*/
+  input.star
+  {
+    display: none;
+
+  }
+
+label.star
+{
+    float: right;
+
+    padding: 5px;
+    font-size: 35px;
+    color: #444;
+    transform: translate(-550px,0px);
+  
+}
+
+label.star:before
+{
+    content: '\2606';
+
+}
+
+input.star:checked ~ label.star:before
+{
+    content:'\2605' ;
+    color: blue;
+
+
+}
