@@ -130,7 +130,14 @@ body{margin: 0;}
 	text-align: center;
 }
 
-
+.category-heading 
+{
+ /* margin-top:-5px;*/
+  padding: 50px 30px;
+  text-align: center;
+  color: #FFF;
+  background-color:#18294d;
+}
 
 
 
@@ -152,6 +159,12 @@ body{margin: 0;}
 	display: inline-block;
 	vertical-align: top;
 
+}
+.category .category-left span,
+.category .category-center span,
+.category .category-right span
+{
+  padding: 28px;
 }
 
 
@@ -193,6 +206,15 @@ body{margin: 0;}
 	padding-top: 50px;
 }
 
+.add-to-cart-btn
+{
+  padding: 3px 20px;
+  color: #FFFF;
+  background-color: #18294d;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
 
 
 
