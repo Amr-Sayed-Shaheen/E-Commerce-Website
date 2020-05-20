@@ -138,16 +138,16 @@ html {
 }
 
 .column {
+  width: 50%;
+  /*margin-bottom: 16px;*/
+  padding: 22px 80px;
   float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
-  padding: 20px;
+  padding: 23px 42px;
+  height: 250px;
 }
 
 .about-section {
@@ -155,10 +155,12 @@ html {
   text-align: center;
   background-color: #18294d;;
   color: white;
+  margin-top: -15px;
+
 }
 
 .container {
-  padding: 0 16px;
+  /*padding: 0 16px;*/
 }
 
 
