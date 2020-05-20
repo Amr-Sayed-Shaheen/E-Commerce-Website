@@ -32,10 +32,7 @@
 
 
 
-
-
 /*nav par style*/
-
 .topnav {
 
   z-index: 9999;
@@ -119,9 +116,6 @@
 
 
 }
-
-
-
 
 
 
@@ -251,7 +245,7 @@ h2 {
 	text-transform: uppercase;
 	display:inline-block;  /* عشان تبقي ساين ان جنب ساين اب */
 	margin: 40px 8px 10px 8px;   /*  فوق يمين تحت شمال*/
-	color: #cccccc;
+
   }
 
   h2.inactive {

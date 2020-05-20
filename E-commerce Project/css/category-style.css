@@ -32,9 +32,7 @@ body{margin: 0;}
 
 
 
-
 /*nav par style*/
-
 .topnav {
 
   z-index: 9999;
@@ -47,6 +45,7 @@ body{margin: 0;}
   
   box-sizing: border-box;
 }
+
 .topnav a {
   float: right;
   display: block;

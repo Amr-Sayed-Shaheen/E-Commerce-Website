@@ -25,7 +25,7 @@ h2 {
   text-transform: uppercase;
   display:inline-block;
   margin: 40px 8px 10px 8px; 
-  color: #cccccc;
+
 }
 
 
@@ -183,9 +183,7 @@ input[type=text]:placeholder {
 
 
 
-
 /*nav par style*/
-
 .topnav {
 
   z-index: 9999;
@@ -269,7 +267,6 @@ input[type=text]:placeholder {
 
 
 }
-
 
 
 
