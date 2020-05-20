@@ -5,6 +5,7 @@
 
          <link rel="stylesheet" href="../css/cart-style.css" type="text/css">
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <script src="../jscript/footer-script.js"></script>
 
     
     <title> cart page  </title>
@@ -12,46 +13,31 @@
 
 <body>
 
-
-
-        <!-- NAVBAR -->
-        <nav>
-            <div class="float">
-                 <a  id= "brand" href="../index.html">Ecommerce</a>
-            </div>
-            <ul>
-              
-                <li>
-                    <a href="aboutus.html">About us</a>
-                </li>
-                <li>
-                    <a href="signup.html">Register Now</a>
-                </li>
-                <li>
-                    <a href="cart.html">Cart</a>
-                </li>
-            </ul>
-        </nav>
-    
-    <!-- MAIN NAVBAR -->
-    <nav>
-        <div  class="float">
-                <input type="search"> 
-                <button>Search</button>
+           <!-- nav par start -->
+         <div style="padding-bottom: 90px;" >
+        <div  class="topnav">
+          <img style="width: 90px;float: left;padding-top: 17px; padding-left: 10px; " src="../img/l3.png" alt="Italian Trulli">
+          <h2 style="float: left; padding-left: 30px;  font-size: 30px; " >Ecomerce</h2>
+        <div style="padding-top: 23px;"  class="search-container">
+          <div style="float: right; padding-left: 100px;" class="search-container clear">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+          <a href="../pages/aboutus.html">About</a>
+          <a href="../pages/category.html">Category</a>
+          <a href="../pages/signup.html">Sign up</a>
+          <a href="../pages/signin.html">Sign in</a>
+          <a class="active" href="../pages/cart.html">Cart</a>
+          <a href="../pages/product.html">Products</a>
+          <a href="../index.html">Home</a>
         </div>
-        <ul>
-           
-            <li>
-                <a href="category.html">Electronic</a>
-            </li>
-            <li>
-                <a href="category.html">Handmade</a>
-            </li>
-            <li>
-                <a href="category.html">Toys</a>
-            </li>
-        </ul>
-    </nav>
+        </div>
+        </div>  
+        <!-- nav par end -->
+
+
 
 
 
@@ -135,71 +121,62 @@
 
 
 
-        <!-- FOOTER -->
-        <footer  class="footer-distributed">  
 
+
+
+          <!-- FOOTER start-->
+        <footer  class="footer-distributed">  
 
             <!-- FIRST COLUMN -->
             <div class="footer-left">
-
                 <h3><span>feedback</span></h3>
-
-                <form action="">
+                <form name="form1" onsubmit="required()">
+                  
                     <label for="">Name</label> <br>
-                    <input type="text">
+                    <input name ='text1' type="text">
                     <br>
                     <label for="">Message</label> <br>
-                    <textarea name="" id="" cols="30" rows="10"></textarea> <br>
-                    <button>Submit</button>
+                    <textarea  id="" cols="30" rows="10"></textarea> <br>
+                    <button> Submit</button>
                 </form>
             </div>
 
 
-
             <!-- SECOND COLUMN -->
             <div class="footer-center">
-
-                <h3><span>Popular Search</span></h3>
-
+                <h3><span>Popular Pages</span></h3>
                 <p class="footer-links">
-                    <a href="#" class="link-1">Home</a>
-                    
-                    <a href="#">Blog</a>
-                
-                    <a href="#">Pricing</a>
-                
-                    <a href="#">About</a>
-                    
-                    <a href="#">Faq</a>
-                    
-                    <a href="#">Contact</a>
+                    <a href="../index.html" class="link-1">Home</a>
+                    <a href="../pages/product.html">Products</a>
+                    <a href="../pages/cart.html">Cart</a>
+                    <a href="../pages/aboutus.html">About</a>
+                    <a href="../pages/category.html">Category</a>
                 </p>
-
             </div>
-
 
 
             <!-- THIRD COLUMN -->
             <div class="footer-right">
-
             <h3><span>Contact Us</span></h3>
-
                 <p class="footer-Contact-US">                   
-                    Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+                    Strategic  Egypt s.p.r.l.
+                    the Nasr, 36-38
+                    BE-1050  | BELGIUM
+
+                    You can also call us…
+                    +32 2 318 38 31 (Main office)
+                    + 32 2 318 89 16 (Confcall only).
                 </p>
-
                 <div class="footer-icons">
-
                     <a href="#"><i class="fa fa-facebook"></i></a>
                     <a href="#"><i class="fa fa-twitter"></i></a>
                     <a href="#"><i class="fa fa-linkedin"></i></a>
                     <a href="#"><i class="fa fa-github"></i></a>
-
                 </div>
-
             </div>
 
         </footer>
+        <!-- FOOTER end-->
 
 
 
