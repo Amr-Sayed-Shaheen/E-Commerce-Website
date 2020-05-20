@@ -35,7 +35,7 @@
 
 .topnav {
 
-  
+  z-index: 9999;
   overflow: hidden;
   background-color: #dce5f4d1;
   position: fixed;
@@ -117,16 +117,105 @@
 
 }
 
+/* SLIDER */
+.num {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  
+  .point {
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  
+  .active {
+	background-color: #717171;
+  }
+  
+  /* to make the photo appears slowly */
+  .fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 3s;
+	animation-name: fade;
+	animation-duration: 3s;
+  }
+  
+  
+  
+  @-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+
+  
+  /*End SLIDER */
 
 
 
 
+.home-header
+{
+	margin-top:-5px;
+    padding: 50px 30px;
+	text-align: center;
+	color: #FFF;
+	background-color:#18294d;
+}
+.best-seller-box
+{
+    background-color: #dce5f463;
+	padding: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+}
+
+.best-seller-img
+{
+	width: 100%;
+	height: 50%;
+	
+}
+.best-seller-h
+{
+	height: 50px;
+}
+
+.best-seller-p
+{
+	height: 80px;
+	padding: 15px;
+}
+
+.seemore-btn
+{
+	padding: 15px 32px;
+    color: #FFFF;
+    background-color: #18294d;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+}
 
 
 
 
 .middle{
-	background: #ececec;
+	/*background: #ececec;*/
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -147,9 +236,10 @@
 
 
 .middle .home-left{
-	width: 18%;
-
-	padding-right : 180px;
+	width: 27%;
+	
+	padding-right : 20px;
+	
 	padding-bottom:   40px;
 	
 }
@@ -168,9 +258,13 @@
 
 
 .middle .home-center{
-	width: 18%;
+	width: 27%;
+	/*
 	padding-right : 180px;
+	*/
+	padding-right : 20px;
 	padding-bottom:   40px;
+	
 	
 }
 
@@ -183,8 +277,8 @@
 
 .middle .home-right{
 	
-	padding-bottom:   40px;
-	width: 18%;
+	padding-bottom: 40px;
+	width: 27%;
 	
 }
 
@@ -208,106 +302,106 @@
 
 
 
+/*Footer style*/
 
 .footer-distributed{
-	background: #666;
+	background: #e2eaf6;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 55px 50px;
-}
-
-
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
+  }
+  
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
 	display: inline-block;
 	vertical-align: top;
-
-}
-
-
-
-.footer-distributed .footer-left{
+  
+  }
+  
+  
+  
+  .footer-distributed .footer-left{
 	width: 40%;
-	color: #ffffff;
-}
-
-
-
-
-
-.footer-distributed h3{
-	color:  lightseagreen;
+	color: #000000;
+  }
+  
+  
+  
+  
+  
+  .footer-distributed h3{
+	color:  #3e6c90;
 	font: normal 36px 'Open Sans', cursive;
 	margin: 0;
 	font-weight: bold;
-}
-
-
-
-
-
-.footer-distributed .footer-links{
-	color:  #ffffff;
+  }
+  
+  
+  
+  
+  
+  .footer-distributed .footer-links{
+	color:  #000000;
 	margin: 20px 0 12px;
 	width: 10px;
-    padding-left: 10px;
-}
-
-
-
-.footer-distributed .footer-links a{
+	  padding-left: 10px;
+  }
+  
+  
+  
+  .footer-distributed .footer-links a{
 	line-height: 1.8;
 	text-decoration: none;
-	color: #ffffff;
-}
-
-
-.footer-distributed .footer-center{
+	color: #000000;
+  }
+  
+  
+  .footer-distributed .footer-center{
 	width: 35%;
-}
-
-
-.footer-distributed .footer-right{
+  }
+  
+  
+  .footer-distributed .footer-right{
 	width: 20%;
-}
-
-
-
-.footer-distributed .footer-Contact-US{
-	color: #ffffff;
+  }
+  
+  
+  
+  .footer-distributed .footer-Contact-US{
+	color: #000000;
 	padding-top: 5px;
-}
-
-
-
-.footer-distributed .footer-right p span{
-
-}
-
-
-.footer-distributed .footer-icons{
+  }
+  
+  
+  
+  
+  
+  .footer-distributed .footer-icons{
 	margin-top: 25px;
-}
-
-
-
-.footer-distributed .footer-icons a{
+  }
+  
+  
+  
+  .footer-distributed .footer-icons a{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
 	
 	background-color:  #33383b;
 	border-radius: 4px;
-
+  
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
-
+  
 	margin-right: 3px;
 	margin-bottom: 5px;
-}
+  }
+  
+  

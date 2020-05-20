@@ -188,7 +188,7 @@ input[type=text]:placeholder {
 
 .topnav {
 
-  
+  z-index: 9999;
   overflow: hidden;
   background-color: #dce5f4d1;
   position: fixed;

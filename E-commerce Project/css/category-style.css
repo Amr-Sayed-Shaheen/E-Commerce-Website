@@ -37,7 +37,7 @@ body{margin: 0;}
 
 .topnav {
 
-  
+  z-index: 9999;
   overflow: hidden;
   background-color: #dce5f4d1;
   position: fixed;
@@ -47,7 +47,6 @@ body{margin: 0;}
   
   box-sizing: border-box;
 }
-
 .topnav a {
   float: right;
   display: block;
